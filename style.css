@@ -1,0 +1,166 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/* frame 1*/
+.top-header{
+    border: 2px solid white;
+    height: 90vh;
+    background: rgba(0, 0, 0,0.8);
+    background-image: url(netflix.jpg);
+    opacity: 0.86;
+}
+.container{
+    padding: 20px 130px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.optionTE{
+    padding: 5px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+.forsignup{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+}
+.btn,.get-started{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color : #E50815;
+    color: white;
+    font-weight: bold;
+}
+.main-content{
+    text-align: center;
+    padding-top : 230px;
+    color: white;
+}
+.main-content h1{
+    font-size: 55px;
+    font-weight: 20;
+}
+.main-content p{
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.below-mainContent{
+    padding-top: 25px;
+    padding-left: 530px;
+}
+.get-started , #txt{
+    padding: 10px 15px;
+}
+.get-started{
+    margin-left: 20px;
+}
+#txt{
+    padding-left: 70px;
+    background-color: black;
+    color: white;
+    text-align : left;
+    border-radius: 6px;
+}
+
+/*frame 2,3*/
+.top2-header, .top3-header,.top5-header{
+    height: 90vh;
+    display: flex;
+    border: 2px solid white;
+    background-color: #000;
+    color: white;
+}
+.left-item{
+    padding-top: 90px;
+}
+.right-item {
+    padding-top:250px;
+    padding-right: 40px;
+    padding-left: 80px;
+}
+.right-item h1{
+    font-size: 45px;
+}
+.right-item p{
+    font-size: 25px;
+    padding-top: 30px;
+}
+
+/* frame 4 */
+
+.top4-header {
+    height: 90vh;
+    padding: 40px 100px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    border: 2px solid white;
+}
+.top4-header h1{
+    font-size: 50px;
+    padding-top: 45px;
+    margin-bottom: 25px;
+}
+.faq{
+    border: 2px solid rgb(220, 226, 220);;
+    display: flex;
+    align-self: stretch;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2D2D2D;
+    padding-right: 100px;
+    padding-left: 100px;
+    justify-content: space-between;
+    font-size: 25px;
+    gap :10px;
+}
+.material-icon{
+    text-align: 25px;
+}
+.faq:hover{
+    background-color: #736c6c;
+}
+.All{
+    text-align: center;
+    padding-top: 30px;
+}
+.All p{ 
+    font-size: 20px;
+}
+.top4-header .get-started{
+    margin-right:400px;
+    font-weight: bold;
+}
+/*last frame*/
+.footer{
+    padding:100px;
+    padding-top: 100px;
+}
+.footer p{
+    padding-top:50px;
+    font-size: 35px;
+    gap :10px
+}
+.link-container {
+    padding-top: 30px;
+    display: flex;
+    gap :300px;
+    margin-top:50px;
+}
+.link-container a{
+    color: white;
+    font-size: 20px;
+}
+.link-item{
+    display: flex;
+    row-gap: 30px;
+    justify-content:space-evenly;
+    flex-direction: column;
+}
